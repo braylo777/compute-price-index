@@ -1,0 +1,16 @@
+{
+  "name": "compute-price-index",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "vitest run",
+    "snapshot": "node scripts/snapshot.mjs",
+    "build": "node deploy/build-worker.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.3.0",
+    "esbuild": "^0.25.12",
+    "vitest": "^3.2.4"
+  }
+}
