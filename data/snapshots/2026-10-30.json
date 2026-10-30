@@ -1,0 +1,137 @@
+{
+ "observedAt": "2026-10-30T13:03:47.310Z",
+ "errors": [],
+ "quoteCount": 55,
+ "rows": [
+  {
+   "sku": "B200",
+   "index": 7.2433,
+   "p25": 7.1208,
+   "p75": 7.6241,
+   "n": 4,
+   "dropped": 1,
+   "sources": {
+    "vast.ai": 7.5016,
+    "runpod": 6.985
+   }
+  },
+  {
+   "sku": "H200",
+   "index": 4.2265,
+   "p25": 3.8056,
+   "p75": 5.0537,
+   "n": 13,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 4.763,
+    "runpod": 3.69
+   }
+  },
+  {
+   "sku": "H100 NVL",
+   "index": 3.0728,
+   "p25": 2.89,
+   "p75": 3.2228,
+   "n": 3,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 3.2556,
+    "runpod": 2.89
+   }
+  },
+  {
+   "sku": "H100",
+   "index": 2.6639,
+   "p25": 2.5378,
+   "p75": 2.89,
+   "n": 5,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 2.5378,
+    "runpod": 2.79
+   }
+  },
+  {
+   "sku": "MI300X",
+   "index": 1.445,
+   "p25": 0.9725,
+   "p75": 1.9175,
+   "n": 2,
+   "dropped": 0,
+   "sources": {
+    "runpod": 1.445
+   }
+  },
+  {
+   "sku": "A100 80GB",
+   "index": 1.2288,
+   "p25": 0.9483,
+   "p75": 1.69,
+   "n": 6,
+   "dropped": 1,
+   "sources": {
+    "vast.ai": 0.8675,
+    "runpod": 1.59
+   }
+  },
+  {
+   "sku": "A100 40GB",
+   "index": 0.9041,
+   "p25": 0.8561,
+   "p75": 0.952,
+   "n": 2,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 0.8081,
+    "runpod": 1
+   }
+  },
+  {
+   "sku": "L40S",
+   "index": 0.8378,
+   "p25": 0.7628,
+   "p75": 0.94,
+   "n": 3,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 0.7356,
+    "runpod": 0.94
+   }
+  },
+  {
+   "sku": "RTX 5090",
+   "index": 0.8039,
+   "p25": 0.5824,
+   "p75": 0.962,
+   "n": 7,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 0.6678,
+    "runpod": 0.94
+   }
+  },
+  {
+   "sku": "RTX 4090",
+   "index": 0.5854,
+   "p25": 0.3825,
+   "p75": 0.6731,
+   "n": 6,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 0.5557,
+    "runpod": 0.615
+   }
+  },
+  {
+   "sku": "RTX A6000",
+   "index": 0.46,
+   "p25": 0.395,
+   "p75": 0.525,
+   "n": 2,
+   "dropped": 0,
+   "sources": {
+    "runpod": 0.46
+   }
+  }
+ ]
+}
