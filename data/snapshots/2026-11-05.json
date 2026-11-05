@@ -1,0 +1,137 @@
+{
+ "observedAt": "2026-11-05T19:56:10.352Z",
+ "errors": [],
+ "quoteCount": 48,
+ "rows": [
+  {
+   "sku": "B200",
+   "index": 7.2436,
+   "p25": 6.741,
+   "p75": 7.746,
+   "n": 3,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 7.5021,
+    "runpod": 6.985
+   }
+  },
+  {
+   "sku": "H200",
+   "index": 3.943,
+   "p25": 3.5938,
+   "p75": 4.5377,
+   "n": 6,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 4.196,
+    "runpod": 3.69
+   }
+  },
+  {
+   "sku": "H100 NVL",
+   "index": 3.4115,
+   "p25": 3.04,
+   "p75": 3.9321,
+   "n": 4,
+   "dropped": 1,
+   "sources": {
+    "vast.ai": 3.9329,
+    "runpod": 2.89
+   }
+  },
+  {
+   "sku": "H100",
+   "index": 2.79,
+   "p25": 2.515,
+   "p75": 3.165,
+   "n": 4,
+   "dropped": 0,
+   "sources": {
+    "runpod": 2.79
+   }
+  },
+  {
+   "sku": "MI300X",
+   "index": 1.445,
+   "p25": 0.9725,
+   "p75": 1.9175,
+   "n": 2,
+   "dropped": 0,
+   "sources": {
+    "runpod": 1.445
+   }
+  },
+  {
+   "sku": "A100 80GB",
+   "index": 1.2961,
+   "p25": 1.19,
+   "p75": 1.79,
+   "n": 5,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 1.0022,
+    "runpod": 1.59
+   }
+  },
+  {
+   "sku": "RTX 5090",
+   "index": 0.7655,
+   "p25": 0.5441,
+   "p75": 0.7461,
+   "n": 7,
+   "dropped": 1,
+   "sources": {
+    "vast.ai": 0.5911,
+    "runpod": 0.94
+   }
+  },
+  {
+   "sku": "L40S",
+   "index": 0.7645,
+   "p25": 0.6894,
+   "p75": 0.94,
+   "n": 3,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 0.5889,
+    "runpod": 0.94
+   }
+  },
+  {
+   "sku": "A100 40GB",
+   "index": 0.7075,
+   "p25": 0.415,
+   "p75": 0.7078,
+   "n": 3,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 0.415,
+    "runpod": 1
+   }
+  },
+  {
+   "sku": "RTX 4090",
+   "index": 0.5524,
+   "p25": 0.4018,
+   "p75": 0.5402,
+   "n": 6,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 0.4898,
+    "runpod": 0.615
+   }
+  },
+  {
+   "sku": "RTX A6000",
+   "index": 0.4322,
+   "p25": 0.3672,
+   "p75": 0.4972,
+   "n": 3,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 0.4044,
+    "runpod": 0.46
+   }
+  }
+ ]
+}
