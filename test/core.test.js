@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
 import { canonicalGpu } from "../src/normalize.js";
-import { parseVast, parseRunpod, fetchAll } from "../src/sources.js";
+import { parseVast, parseRunpod, parseRuncrate, fetchAll } from "../src/sources.js";
 import { filterOutliers, computeIndex } from "../src/indexer.js";
 import { median, mad, quantile } from "../src/stats.js";
 import { fitDrift, forwardCurve, PRIOR_MONTHLY_DRIFT } from "../src/curve.js";
@@ -42,6 +42,22 @@ describe("parsers", () => {
       { id: "NVIDIA H100 80GB HBM3", displayName: "H100 SXM", securePrice: 2.99, communityPrice: 2.69 },
     ] } }, T);
     expect(out.map((o) => o.tier)).toEqual(["community", "secure", "community"]);
+  });
+  it("runcrate: one quote per type with an orderable option, skips unmapped and unpriced", () => {
+    const out = parseRuncrate({ gpus: [
+      { gpu_type: "H100", name: "H100", min_price_hr: 3.5, available_options: 4 },
+      { gpu_type: "A100_80G", name: "A100 80GB", min_price_hr: 1.7, available_options: 1 },
+      { gpu_type: "A100", name: "A100 40GB", min_price_hr: 2, available_options: 2 },
+      { gpu_type: "L40S", name: "L40S", min_price_hr: 0.5, available_options: 0 },
+      { gpu_type: "B300", name: "B300", min_price_hr: 17, available_options: 3 },
+      { gpu_type: "RTX5090", name: "RTX 5090", min_price_hr: 0, available_options: 5 },
+    ] }, T);
+    expect(out.map((o) => [o.sku, o.pricePerGpuHr, o.source])).toEqual([
+      ["H100", 3.5, "runcrate"],
+      ["A100 80GB", 1.7, "runcrate"],
+      ["A100 40GB", 2, "runcrate"],
+    ]);
+    expect(parseRuncrate(null, T)).toEqual([]);
   });
   it("parsers tolerate malformed payloads", () => {
     expect(parseVast(null, T)).toEqual([]);
