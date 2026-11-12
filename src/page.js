@@ -12,7 +12,7 @@ input,select{background:#0b0f17;color:#e6e9ef;border:1px solid #333c52;border-ra
 <label>Capex/GPU $<input id="capex" value="30000"></label><label>Years<input id="years" value="4"></label>
 <label>Utilization<input id="util" value="0.7"></label><label>$/kWh<input id="kwh" value="0.09"></label>
 <div id="tco" style="margin-top:10px"></div></div>
-<p class="muted">Method: per-source medians after modified-z (3.5) outlier removal, equal-weighted across sources. Sources: vast.ai marketplace API, RunPod public GraphQL. <a style="color:#4f8cff" href="https://github.com/braylo777/compute-price-index">Source &amp; methodology</a></p>
+<p class="muted">Method: per-source medians after modified-z (3.5) outlier removal, equal-weighted across sources. Sources: vast.ai marketplace API, RunPod public GraphQL, Runcrate public pricing feed. <a style="color:#4f8cff" href="https://github.com/braylo777/compute-price-index">Source &amp; methodology</a></p>
 </main><script>
 let data;
 const $=id=>document.getElementById(id);

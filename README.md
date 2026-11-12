@@ -5,7 +5,7 @@ A daily, methodology-documented price index for rented GPU compute ($ per GPU-ho
 **Live:** https://compute-price-index.braylo777.workers.dev · API: `/api/index`, `/api/forward?sku=H100`, `/api/tco?sku=H100&utilization=0.6`
 
 ## What it does
-1. **Scrapes** public prices from two live sources: the vast.ai marketplace API (per-listing, divided by GPU count) and RunPod's public GraphQL (secure + community tiers).
+1. **Scrapes** public prices from three live sources: the vast.ai marketplace API (per-listing, divided by GPU count), RunPod's public GraphQL (secure + community tiers) and Runcrate's public pricing feed (one list-price quote per GPU type, types with no orderable option skipped).
 2. **Normalizes** vendor names to 11 canonical SKUs (B200, H200, H100, H100 NVL, MI300X, A100 80/40GB, L40S, RTX 5090/4090, A6000).
 3. **Cleans** quotes with outlier rules, then **computes the index**.
 4. **Stores** quotes and daily index rows in **Postgres** (`src/schema.sql`; tests run it on PGlite, the scheduled job persists to a local PGlite DB and to JSON snapshots in `data/snapshots/`).
@@ -29,8 +29,8 @@ npm run build       # bundle the Worker to dist/worker.js
 Daily snapshots run from `.github/workflows/snapshot.yml`; CI runs tests and the build on every push.
 
 ## Limits (honest)
-- Two sources today; AWS/GCP/Azure/Lambda list prices need auth or HTML scraping and are not included yet.
+- Three sources today; AWS/GCP/Azure/Lambda list prices need auth or HTML scraping and are not included yet.
 - History starts 2026-10-28, so the curve uses the prior until 3+ days accumulate.
-- No secrets are needed: both sources are public endpoints.
+- No secrets are needed: all sources are public endpoints.
 
 See `DEPLOYS.md` for deploy history and rollback points.
