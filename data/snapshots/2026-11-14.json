@@ -1,0 +1,134 @@
+{
+ "observedAt": "2026-11-14T17:59:39.070Z",
+ "errors": [],
+ "quoteCount": 48,
+ "rows": [
+  {
+   "sku": "B200",
+   "index": 7.8714,
+   "p25": 7.4875,
+   "p75": 8.7565,
+   "n": 4,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 8.7578,
+    "runpod": 6.985
+   }
+  },
+  {
+   "sku": "H200",
+   "index": 3.8303,
+   "p25": 3.74,
+   "p75": 4.0875,
+   "n": 8,
+   "dropped": 1,
+   "sources": {
+    "vast.ai": 3.9706,
+    "runpod": 3.69
+   }
+  },
+  {
+   "sku": "H100 NVL",
+   "index": 2.89,
+   "p25": 2.74,
+   "p75": 3.04,
+   "n": 2,
+   "dropped": 0,
+   "sources": {
+    "runpod": 2.89
+   }
+  },
+  {
+   "sku": "H100",
+   "index": 2.79,
+   "p25": 2.515,
+   "p75": 3.265,
+   "n": 4,
+   "dropped": 0,
+   "sources": {
+    "runpod": 2.79
+   }
+  },
+  {
+   "sku": "MI300X",
+   "index": 1.445,
+   "p25": 0.9725,
+   "p75": 1.9175,
+   "n": 2,
+   "dropped": 0,
+   "sources": {
+    "runpod": 1.445
+   }
+  },
+  {
+   "sku": "A100 80GB",
+   "index": 1.3045,
+   "p25": 1.19,
+   "p75": 2.09,
+   "n": 5,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 0.8689,
+    "runpod": 1.74
+   }
+  },
+  {
+   "sku": "L40S",
+   "index": 0.94,
+   "p25": 0.865,
+   "p75": 1.015,
+   "n": 2,
+   "dropped": 0,
+   "sources": {
+    "runpod": 0.94
+   }
+  },
+  {
+   "sku": "A100 40GB",
+   "index": 0.8106,
+   "p25": 0.6211,
+   "p75": 0.8119,
+   "n": 3,
+   "dropped": 1,
+   "sources": {
+    "vast.ai": 0.6211,
+    "runpod": 1
+   }
+  },
+  {
+   "sku": "RTX 5090",
+   "index": 0.787,
+   "p25": 0.5206,
+   "p75": 0.7753,
+   "n": 6,
+   "dropped": 1,
+   "sources": {
+    "vast.ai": 0.534,
+    "runpod": 1.04
+   }
+  },
+  {
+   "sku": "RTX 4090",
+   "index": 0.6112,
+   "p25": 0.523,
+   "p75": 0.9057,
+   "n": 7,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 0.6074,
+    "runpod": 0.615
+   }
+  },
+  {
+   "sku": "RTX A6000",
+   "index": 0.51,
+   "p25": 0.42,
+   "p75": 0.6,
+   "n": 2,
+   "dropped": 0,
+   "sources": {
+    "runpod": 0.51
+   }
+  }
+ ]
+}
