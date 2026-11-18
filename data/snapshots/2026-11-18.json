@@ -1,0 +1,135 @@
+{
+ "observedAt": "2026-11-18T20:30:02.137Z",
+ "errors": [],
+ "quoteCount": 53,
+ "rows": [
+  {
+   "sku": "B200",
+   "index": 7.402,
+   "p25": 7.5022,
+   "p75": 8.0991,
+   "n": 6,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 7.819,
+    "runpod": 6.985
+   }
+  },
+  {
+   "sku": "H200",
+   "index": 3.9878,
+   "p25": 3.74,
+   "p75": 4.3435,
+   "n": 8,
+   "dropped": 1,
+   "sources": {
+    "vast.ai": 4.2855,
+    "runpod": 3.69
+   }
+  },
+  {
+   "sku": "H100 NVL",
+   "index": 3.1528,
+   "p25": 2.89,
+   "p75": 3.3028,
+   "n": 3,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 3.4156,
+    "runpod": 2.89
+   }
+  },
+  {
+   "sku": "H100",
+   "index": 2.79,
+   "p25": 2.515,
+   "p75": 3.265,
+   "n": 4,
+   "dropped": 0,
+   "sources": {
+    "runpod": 2.79
+   }
+  },
+  {
+   "sku": "MI300X",
+   "index": 1.445,
+   "p25": 0.9725,
+   "p75": 1.9175,
+   "n": 2,
+   "dropped": 0,
+   "sources": {
+    "runpod": 1.445
+   }
+  },
+  {
+   "sku": "A100 80GB",
+   "index": 1.1311,
+   "p25": 1.19,
+   "p75": 2.09,
+   "n": 5,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 0.5222,
+    "runpod": 1.74
+   }
+  },
+  {
+   "sku": "L40S",
+   "index": 0.94,
+   "p25": 0.865,
+   "p75": 1.015,
+   "n": 2,
+   "dropped": 0,
+   "sources": {
+    "runpod": 0.94
+   }
+  },
+  {
+   "sku": "RTX 5090",
+   "index": 0.8538,
+   "p25": 0.5938,
+   "p75": 0.7374,
+   "n": 9,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 0.6676,
+    "runpod": 1.04
+   }
+  },
+  {
+   "sku": "A100 40GB",
+   "index": 0.8106,
+   "p25": 0.6211,
+   "p75": 0.8119,
+   "n": 3,
+   "dropped": 1,
+   "sources": {
+    "vast.ai": 0.6211,
+    "runpod": 1
+   }
+  },
+  {
+   "sku": "RTX 4090",
+   "index": 0.5471,
+   "p25": 0.4694,
+   "p75": 0.5237,
+   "n": 6,
+   "dropped": 1,
+   "sources": {
+    "vast.ai": 0.4791,
+    "runpod": 0.615
+   }
+  },
+  {
+   "sku": "RTX A6000",
+   "index": 0.51,
+   "p25": 0.42,
+   "p75": 0.6,
+   "n": 2,
+   "dropped": 0,
+   "sources": {
+    "runpod": 0.51
+   }
+  }
+ ]
+}
