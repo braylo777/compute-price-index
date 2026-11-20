@@ -1,0 +1,136 @@
+{
+ "observedAt": "2026-11-20T20:16:12.082Z",
+ "errors": [],
+ "quoteCount": 54,
+ "rows": [
+  {
+   "sku": "B200",
+   "index": 8.1839,
+   "p25": 7.4875,
+   "p75": 9.3815,
+   "n": 4,
+   "dropped": 1,
+   "sources": {
+    "vast.ai": 9.3828,
+    "runpod": 6.985
+   }
+  },
+  {
+   "sku": "H200",
+   "index": 3.8464,
+   "p25": 3.5976,
+   "p75": 4.6464,
+   "n": 7,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 4.0028,
+    "runpod": 3.69
+   }
+  },
+  {
+   "sku": "H100 NVL",
+   "index": 3.4637,
+   "p25": 3.04,
+   "p75": 4.0365,
+   "n": 4,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 4.0374,
+    "runpod": 2.89
+   }
+  },
+  {
+   "sku": "H100",
+   "index": 2.2622,
+   "p25": 1.99,
+   "p75": 2.89,
+   "n": 5,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 1.7344,
+    "runpod": 2.79
+   }
+  },
+  {
+   "sku": "MI300X",
+   "index": 1.445,
+   "p25": 0.9725,
+   "p75": 1.9175,
+   "n": 2,
+   "dropped": 0,
+   "sources": {
+    "runpod": 1.445
+   }
+  },
+  {
+   "sku": "A100 80GB",
+   "index": 1.366,
+   "p25": 1.1338,
+   "p75": 1.915,
+   "n": 6,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 0.992,
+    "runpod": 1.74
+   }
+  },
+  {
+   "sku": "L40S",
+   "index": 0.94,
+   "p25": 0.865,
+   "p75": 1.015,
+   "n": 2,
+   "dropped": 0,
+   "sources": {
+    "runpod": 0.94
+   }
+  },
+  {
+   "sku": "RTX 5090",
+   "index": 0.8471,
+   "p25": 0.618,
+   "p75": 0.7587,
+   "n": 8,
+   "dropped": 1,
+   "sources": {
+    "vast.ai": 0.6542,
+    "runpod": 1.04
+   }
+  },
+  {
+   "sku": "A100 40GB",
+   "index": 0.8119,
+   "p25": 0.6222,
+   "p75": 0.7511,
+   "n": 4,
+   "dropped": 1,
+   "sources": {
+    "vast.ai": 0.6237,
+    "runpod": 1
+   }
+  },
+  {
+   "sku": "RTX 4090",
+   "index": 0.6112,
+   "p25": 0.4583,
+   "p75": 0.6619,
+   "n": 7,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 0.6074,
+    "runpod": 0.615
+   }
+  },
+  {
+   "sku": "RTX A6000",
+   "index": 0.51,
+   "p25": 0.42,
+   "p75": 0.6,
+   "n": 2,
+   "dropped": 0,
+   "sources": {
+    "runpod": 0.51
+   }
+  }
+ ]
+}
