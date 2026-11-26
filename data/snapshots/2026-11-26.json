@@ -1,0 +1,136 @@
+{
+ "observedAt": "2026-11-26T21:29:47.536Z",
+ "errors": [],
+ "quoteCount": 49,
+ "rows": [
+  {
+   "sku": "B200",
+   "index": 8.4326,
+   "p25": 8.99,
+   "p75": 9.3802,
+   "n": 5,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 9.3802,
+    "runpod": 7.485
+   }
+  },
+  {
+   "sku": "H200",
+   "index": 4.2464,
+   "p25": 3.79,
+   "p75": 5.0669,
+   "n": 9,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 4.8028,
+    "runpod": 3.69
+   }
+  },
+  {
+   "sku": "H100 NVL",
+   "index": 3.5453,
+   "p25": 2.89,
+   "p75": 3.6953,
+   "n": 3,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 4.2006,
+    "runpod": 2.89
+   }
+  },
+  {
+   "sku": "H100",
+   "index": 2.79,
+   "p25": 2.515,
+   "p75": 3.265,
+   "n": 4,
+   "dropped": 0,
+   "sources": {
+    "runpod": 2.79
+   }
+  },
+  {
+   "sku": "MI300X",
+   "index": 1.445,
+   "p25": 0.9725,
+   "p75": 1.9175,
+   "n": 2,
+   "dropped": 0,
+   "sources": {
+    "runpod": 1.445
+   }
+  },
+  {
+   "sku": "A100 80GB",
+   "index": 1.3686,
+   "p25": 1.1423,
+   "p75": 1.915,
+   "n": 6,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 0.9971,
+    "runpod": 1.74
+   }
+  },
+  {
+   "sku": "L40S",
+   "index": 0.94,
+   "p25": 0.865,
+   "p75": 1.015,
+   "n": 2,
+   "dropped": 0,
+   "sources": {
+    "runpod": 0.94
+   }
+  },
+  {
+   "sku": "RTX 5090",
+   "index": 0.8485,
+   "p25": 0.657,
+   "p75": 1.39,
+   "n": 5,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 0.657,
+    "runpod": 1.04
+   }
+  },
+  {
+   "sku": "A100 40GB",
+   "index": 0.8367,
+   "p25": 0.6379,
+   "p75": 0.7348,
+   "n": 5,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 0.6734,
+    "runpod": 1
+   }
+  },
+  {
+   "sku": "RTX 4090",
+   "index": 0.6112,
+   "p25": 0.4593,
+   "p75": 0.6563,
+   "n": 5,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 0.6074,
+    "runpod": 0.615
+   }
+  },
+  {
+   "sku": "RTX A6000",
+   "index": 0.456,
+   "p25": 0.3659,
+   "p75": 0.5459,
+   "n": 3,
+   "dropped": 0,
+   "sources": {
+    "vast.ai": 0.4019,
+    "runpod": 0.51
+   }
+  }
+ ]
+}
